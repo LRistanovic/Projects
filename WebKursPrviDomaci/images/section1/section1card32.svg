@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 29" width="22" height="29">
+	<defs>
+		<clipPath clipPathUnits="userSpaceOnUse" id="cp1">
+			<path d="M-1313 -1841L607 -1841L607 3469L-1313 3469Z" />
+		</clipPath>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #f1f1f1 } 
+		.shp1 { fill: #ffffff } 
+	</style>
+	<g id="::::Home" clip-path="url(#cp1)">
+		<g id="Group 223">
+			<path id="Ellipse 19" class="shp0" d="M11 12C7.68 12 5 9.32 5 6C5 2.68 7.68 0 11 0C14.32 0 17 2.68 17 6C17 9.32 14.32 12 11 12Z" />
+			<path id="Ellipse 20" class="shp0" d="M11 29C4.92 29 0 24.08 0 18C0 11.92 4.92 7 11 7C17.08 7 22 11.92 22 18C22 24.08 17.08 29 11 29Z" />
+			<path id="Ellipse 21" class="shp1" d="M11 24C7.68 24 5 21.32 5 18C5 14.68 7.68 12 11 12C14.32 12 17 14.68 17 18C17 21.32 14.32 24 11 24Z" />
+		</g>
+	</g>
+</svg>

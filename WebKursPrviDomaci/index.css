@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.background {
+    position: absolute;
+    width: 100vw;
+}
+
+.background-upperShape {
+    width: 50vw;
+    height: auto;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.background-middleShape {
+    width: 100vw;
+    height: auto;
+    position: absolute;
+    top: 1500px;
+}
+
+.background-bottomShape {
+    width: 100vw;
+    height: auto;
+    position: absolute;
+    top: 3000px;
+}

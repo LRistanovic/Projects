@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 788 629" width="788" height="629">
+	<defs>
+		<clipPath clipPathUnits="userSpaceOnUse" id="cp1">
+			<path d="M-63 -2279L1857 -2279L1857 3031L-63 3031Z" />
+		</clipPath>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #ffffff } 
+		.shp1 { fill: none;stroke: #e6ebf0;stroke-linecap:square } 
+		.shp2 { opacity: 0.102;fill: #79828b } 
+		.txt3 { font-size: 25px;fill: #8d99a4;font-family: "Roboto Mono";font-weight: 500 } 
+		.txt4 { font-size: 21px;line-height: 23px;fill: #79828b;font-family: "Poppins";font-weight: 500 } 
+		.txt5 { font-size: 47px;fill: #42505c;font-family: "Poppins";font-weight: 500 } 
+		.txt6 { font-size: 21px;fill: #79828b;font-family: "Poppins";font-weight: 400 } 
+		.txt7 { font-size: 21px;fill: #10c172;font-family: "Poppins";font-weight: 400 } 
+		.shp8 { fill: #6271d2 } 
+	</style>
+	<g id="::::Home" clip-path="url(#cp1)">
+		<g id="Rank, Projects">
+			<path id="cardBg" class="shp0" d="M123 15L665 15C669.42 15 673 18.58 673 23L673 405.8C673 410.23 669.42 413.8 665 413.8L123 413.8C118.58 413.8 115 410.23 115 405.8L115 23C115 18.58 118.58 15 123 15Z" />
+			<path id="divider" class="shp1" d="M153.59 237.72L634.41 237.72" />
+			<g id="btc">
+				<path id="Rectangle 6" class="shp2" d="M169.59 320.53L238.9 320.53C247.75 320.53 254.9 327.68 254.9 336.53L254.9 355.99C254.9 364.84 247.75 371.99 238.9 371.99L169.59 371.99C160.75 371.99 153.59 364.84 153.59 355.99L153.59 336.53C153.59 327.68 160.75 320.53 169.59 320.53Z" />
+				<text id="ruby" style="transform: matrix(1,0,0,1,172.89,352.965)" >
+					<tspan x="0" y="0" class="txt3">ruby</tspan>
+				</text>
+			</g>
+			<g id="btc">
+				<path id="Rectangle 6" class="shp2" d="M290.2 320.53L406.14 320.53C414.99 320.53 422.14 327.68 422.14 336.53L422.14 355.99C422.14 364.84 414.99 371.99 406.14 371.99L290.2 371.99C281.35 371.99 274.2 364.84 274.2 355.99L274.2 336.53C274.2 327.68 281.35 320.53 290.2 320.53Z" />
+				<text id="clojure" style="transform: matrix(1,0,0,1,293.496,352.965)" >
+					<tspan x="0" y="0" class="txt3">clojure</tspan>
+				</text>
+			</g>
+			<g id="btc">
+				<path id="Rectangle 6" class="shp2" d="M457.44 320.53L526.75 320.53C535.59 320.53 542.75 327.68 542.75 336.53L542.75 355.99C542.75 364.84 535.59 371.99 526.75 371.99L457.44 371.99C448.59 371.99 441.44 364.84 441.44 355.99L441.44 336.53C441.44 327.68 448.59 320.53 457.44 320.53Z" />
+				<text id="java" style="transform: matrix(1,0,0,1,460.735,352.965)" >
+					<tspan x="0" y="0" class="txt3">java</tspan>
+				</text>
+			</g>
+			<text id="RANK" style="transform: matrix(1,0,0,1,153.594,74.986)" >
+				<tspan x="0" y="0" class="txt4">RANK</tspan>
+			</text>
+			<text id="TOP CATEGORIES" style="transform: matrix(1,0,0,1,153.594,292.075)" >
+				<tspan x="0" y="0" class="txt4">TOP CATEGORIES</tspan>
+			</text>
+			<text id="PROJECTS" style="transform: matrix(1,0,0,1,447.87,74.986)" >
+				<tspan x="0" y="0" class="txt4">PROJECTS</tspan>
+			</text>
+			<text id="607" style="transform: matrix(1,0,0,1,217.916,155.444)" >
+				<tspan x="0" y="0" class="txt5" dx="0 1 1" >607</tspan>
+			</text>
+			<text id="45" style="transform: matrix(1,0,0,1,512.193,155.444)" >
+				<tspan x="0" y="0" class="txt5" dx="0 1" >45</tspan>
+			</text>
+			<text id="You’re in top 40%" style="transform: matrix(1,0,0,1,153.594,197.199)" >
+				<tspan x="0" y="0" class="txt6">You’re in top 40%</tspan>
+			</text>
+			<text id="10 in this month" style="transform: matrix(1,0,0,1,447.87,197.199)" >
+				<tspan x="0" y="0" class="txt7">10 in this month</tspan>
+			</text>
+			<g id="rank">
+				<path id="Oval 8" class="shp8" d="M179.32 161.33C165.09 161.33 153.59 149.83 153.59 135.61C153.59 121.38 165.09 109.88 179.32 109.88C193.55 109.88 205.05 121.38 205.05 135.61C205.05 149.83 193.55 161.33 179.32 161.33Z" />
+				<path id="Star" class="shp0" d="M179.32 144.07L171.37 148.47L172.89 139.16L166.46 132.57L175.35 131.21L179.32 122.74L183.3 131.21L192.19 132.57L185.75 139.16L187.27 148.47L179.32 144.07Z" />
+			</g>
+			<g id="projects">
+				<path id="Oval 8" class="shp8" d="M473.6 161.33C459.37 161.33 447.87 149.83 447.87 135.61C447.87 121.38 459.37 109.88 473.6 109.88C487.83 109.88 499.33 121.38 499.33 135.61C499.33 149.83 487.83 161.33 473.6 161.33Z" />
+				<path id="Fill 1" class="shp0" d="M479.77 146.86L479.77 146.86L477.45 144.45L485.03 136.41L477.45 128.41L479.77 125.96L489.68 136.41L479.77 146.86L479.77 146.86ZM469.04 146.86L469.04 146.86L459.13 136.41L469.04 125.96L471.36 128.41L463.77 136.41L471.36 144.45L469.04 146.86L469.04 146.86Z" />
+			</g>
+		</g>
+	</g>
+</svg>

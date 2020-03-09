@@ -191,11 +191,15 @@ header .right {
     background-color: rgba(255, 255, 255, 20%);
 }
 
+.main-benefits {
+    height: 45vw;
+}
+
 .main-benefits h2 {
     width: 50vw;
     text-align: center;
     margin-left: 25vw;
-    font-size: 3vw;
+    font-size: 3.5vw;
 }
 
 .main-benefits-flex {
@@ -231,4 +235,62 @@ header .right {
 .main-benefits-flex-pad h4 {
     text-align: center;
     font-size: 1.8vw;
+}
+
+.main-why {
+    height: 50vw;
+}
+
+.main-why-left {
+    display: inline-block;
+    width: 50vw;
+    float: left;
+}
+
+.main-section2-card1 {
+    width: 30vw;
+    box-shadow: 1vw 1vw 7vw rgba(0, 0, 0, 30%);
+    border-radius: .5vw;
+    position: relative;
+    left: 20%;
+}
+
+.main-section2-card2 {
+    width: 20vw;
+    z-index: 10;
+    box-shadow: 1vw 1vw 7vw rgba(0, 0, 0, 30%);
+    border-radius: .5vw;
+    position: relative;
+    left: 50%;
+    bottom: 6vw;
+}
+
+.main-why-right {
+    display: inline-block;
+    width: 40vw;
+}
+
+.main-why-right h2 {
+    padding-top: 2vw;
+    font-size: 3.5vw;
+}
+
+.main-why-right p {
+    color: gray;
+    line-height: 2.5vw;
+    font-size: 1.4vw;
+}
+
+.main-why-right a {
+    color: black;
+    transition: padding-right .5s;
+}
+
+.main-why-right a:hover {
+    padding-right: 1vw;
+}
+
+.main-why-right img {
+    height: 1.15vw;
+    padding-left: .5vw;
 }

@@ -3,7 +3,7 @@ body {
     padding: 0;
     max-width: 100%;
     overflow-x: hidden;
-    font-family: 'Spartan', sans-serif;
+    font-family: 'Muli', sans-serif;
 }
 
 a {
@@ -42,26 +42,26 @@ header {
     height: 90vw;
 }
 
-header .left {
+.header-left {
     width: 50vw;
     display: inline-block;
 }
 
-header .left h3 {
+header .header-left h3 {
     font-weight: 500;
     font-size: 2vw;
     margin: 3vw;
 }
 
-header .left h1 {
+.header-left h1 {
     font-size: 4vw;
-    font-weight: 700;
+    font-weight: 900;
     margin: 3vw;
     position: relative;
     top: 7.5vw;
 }
 
-header .left p {
+.header-left p {
     position: relative;
     top: 7.5vw;
     margin: 3vw;
@@ -70,7 +70,7 @@ header .left p {
     line-height: 3vw;
 }
 
-header .left form {
+.header-left form {
     position: relative;
     top: 7.5vw;
     margin: 5vw 3vw;
@@ -84,7 +84,7 @@ input[type="email"] {
     box-shadow: 0 0 0 1px lightgray;
     border-radius: 8.5vw;
     font-size: 1.6vw;
-    font-family: 'Spartan', sans-serif;
+    font-family: 'Muli', sans-serif;
 }
 
 input[type="submit"] {
@@ -97,10 +97,10 @@ input[type="submit"] {
     color: white;
     font-size: 1.6vw;
     box-shadow: 20px 20px 50px rgba(251, 82, 83, 50%);
-    font-family: 'Spartan', sans-serif;
+    font-family: 'Muli', sans-serif;
 }
 
-header .left .logos {
+.header-left .logos {
     position: relative;
     top: 11.5vw;
     display: grid;
@@ -112,17 +112,17 @@ header .left .logos {
     margin: 3vw;
 }
 
-header .left .logo {
+.header-left .logo {
     width: 12vw;
     height: auto;
     transition: transform .5s;
 }
 
-header .left .logo:hover {
+.header-left .logo:hover {
     transform: scale(1.2);
 }
 
-header .right {
+.header-right {
     display: inline-block;
     position: relative;
     float: right;
@@ -257,7 +257,7 @@ header .right {
 
 .main-section2-card2 {
     width: 20vw;
-    z-index: 10;
+    z-index: 2;
     box-shadow: 1vw 1vw 7vw rgba(0, 0, 0, 30%);
     border-radius: .5vw;
     position: relative;
@@ -293,4 +293,47 @@ header .right {
 .main-why-right img {
     height: 1.15vw;
     padding-left: .5vw;
+}
+
+.main-teamworkflow {
+    height: 45vw;
+}
+
+.main-teamworkflow-left {
+    width: 50vw;
+    display: inline-block;
+}
+
+.main-teamworkflow-left h2 {
+    margin-left: 14vw;
+    font-size: 3.5vw;
+}
+
+.main-teamworkflow-left p {
+    color: gray;
+    margin-left: 14vw;
+    font-size: 1.4vw;
+    line-height: 2.5vw;
+}
+
+.main-teamworkflow-left a {
+    color: black;
+    margin-left: 14vw;
+    transition: padding-right .5s;
+}
+
+.main-teamworkflow-left a:hover {
+    padding-right: 1vw;
+}
+
+.main-teamworkflow-left img {
+    height: 1.15vw;
+    padding-left: .5vw;
+}
+
+.main-teamworkflow-right {
+    width: 48vw;
+    display: inline-block;
+    float: right;
+    position: relative;
 }

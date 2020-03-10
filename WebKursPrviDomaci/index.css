@@ -337,3 +337,70 @@ input[type="submit"] {
     float: right;
     position: relative;
 }
+
+.main-section3-card1 {
+    width: 25vw;
+    box-shadow: 1vw 1vw 7vw rgba(0, 0, 0, 30%);
+    border-radius: 5px;
+    position: absolute;
+    left: 35%;
+    z-index: 2;
+}
+
+.main-section3-card2 {
+    width: 25vw;
+    box-shadow: 1vw 1vw 7vw rgba(0, 0, 0, 30%);
+    border-radius: 5px;
+    position: absolute;
+    left: 10%;
+    top: 15vw;
+}
+
+.main-clients {
+    height: 30vw;
+    border-bottom: 1px solid lightgray;
+}
+
+.main-clients h2 {
+    font-size: 3.5vw;
+    width: 100vw;
+    text-align: center;
+}
+
+.main-clients-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.main-clients-flex img {
+    width: 20%;
+    box-shadow: 1vw 1vw 7vw rgba(0, 0, 0, 20%);
+    border-radius: 5px;
+    margin: 0 3vw;
+    transition: transform .5s;
+}
+
+.main-clients-flex img:hover {
+    transform: scale(1.1);
+}
+
+footer h2 {
+    font-size: 3.5vw;
+    margin-top: 6vw;
+    width: 100vw;
+    text-align: center;
+}
+
+footer p {
+    font-size: 1.4vw;
+    line-height: 2.5vw;
+    width: 30vw;
+    margin: 0 35vw;
+    text-align: center;
+}
+
+footer form {
+    width: 43.6vw;
+    margin: 5vw 28.2vw 0;
+}

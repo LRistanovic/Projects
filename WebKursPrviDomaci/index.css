@@ -38,6 +38,61 @@ a {
     top: 235vw;
 }
 
+.background-respShape1 {
+    width: 25vw;
+    height: 25vw;
+    background-color: rgb(58, 65, 81);
+    position: absolute;
+    right: 0;
+    top: 130vw;
+    border-radius: 15vw;
+    display: none;
+}
+
+.background-respShape2 {
+    width: 20vw;
+    height: 20vw;
+    background-color: rgb(253, 182, 90);
+    position: absolute;
+    top: 110vw;
+    left: 3vw;
+    border-radius: 10vw;
+    display: none;
+}
+
+.background-respShape3 {
+    width: 30vw;
+    height: 30vw;
+    border-radius: 15vw;
+    position: absolute;
+    top: 300vw;
+    right: 5vw;
+    background-color: rgb(251, 82, 83);
+    display: none;
+}
+
+.background-respShape4 {
+    width: 25vw;
+    height: 25vw;
+    border-radius: 15vw;
+    position: absolute;
+    top: 350vw;
+    left: 2vw;
+    background-color: rgb(58, 65, 81);
+    display: none;
+}
+
+.background-respShape5 {
+    width: 30vw;
+    height: 30vw;
+    border-radius: 15vw;
+    position: absolute;
+    top: 420vw;
+    right: 5vw;
+    background-color: rgb(253, 182, 90);
+    display: none;
+}
+
 header {
     height: 90vw;
 }
@@ -47,7 +102,7 @@ header {
     display: inline-block;
 }
 
-header .header-left h3 {
+.header-left h3 {
     font-weight: 500;
     font-size: 2vw;
     margin: 3vw;
@@ -59,6 +114,7 @@ header .header-left h3 {
     margin: 3vw;
     position: relative;
     top: 7.5vw;
+    z-index: 10;
 }
 
 .header-left p {
@@ -68,6 +124,7 @@ header .header-left h3 {
     font-size: 1.6vw;
     color: gray;
     line-height: 3vw;
+    z-index: 10;
 }
 
 .header-left form {
@@ -77,9 +134,9 @@ header .header-left h3 {
 }
 
 input[type="email"] {
-    width: 25vw;
+    width: 20vw;
     height: 6vw;
-    padding: 2.5vw;
+    padding-left: 2.5vw;
     border: none;
     box-shadow: 0 0 0 1px lightgray;
     border-radius: 8.5vw;
@@ -124,7 +181,8 @@ input[type="submit"] {
 
 .header-right {
     display: inline-block;
-    position: relative;
+    position: absolute;
+    right: 0;
     float: right;
     width: 48vw;
 }
@@ -173,7 +231,7 @@ input[type="submit"] {
 
 .header-right-tryfree {
     position: absolute;
-    right: 7vw;
+    right: 3vw;
     top: 3.5vw;
     width: 8vw;
     height: 1.5vw;
@@ -245,6 +303,7 @@ input[type="submit"] {
     display: inline-block;
     width: 50vw;
     float: left;
+    position: absolute;
 }
 
 .main-section2-card1 {
@@ -268,6 +327,7 @@ input[type="submit"] {
 .main-why-right {
     display: inline-block;
     width: 40vw;
+    margin-left: 50vw;
 }
 
 .main-why-right h2 {
@@ -284,6 +344,7 @@ input[type="submit"] {
 .main-why-right a {
     color: black;
     transition: padding-right .5s;
+    font-size: 1.5vw;
 }
 
 .main-why-right a:hover {
@@ -320,6 +381,7 @@ input[type="submit"] {
     color: black;
     margin-left: 14vw;
     transition: padding-right .5s;
+    font-size: 1.5vw;
 }
 
 .main-teamworkflow-left a:hover {
@@ -335,7 +397,7 @@ input[type="submit"] {
     width: 48vw;
     display: inline-block;
     float: right;
-    position: relative;
+    position: absolute;
 }
 
 .main-section3-card1 {
@@ -369,8 +431,10 @@ input[type="submit"] {
 
 .main-clients-flex {
     display: flex;
+    width: 100vw;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
 }
 
 .main-clients-flex img {
@@ -401,6 +465,226 @@ footer p {
 }
 
 footer form {
-    width: 43.6vw;
-    margin: 5vw 28.2vw 0;
+    width: 44.2vw;
+    margin: 5vw 28.2vw 7vw;
+}
+
+@media (max-width: 820px) {
+    
+    .background-middleShape {
+        top: 170vw;
+    }
+
+    .background-bottomShape {
+        top: 391vw;
+    }
+
+    .background-respShape1, .background-respShape2, .background-respShape3, .background-respShape4 {
+        display: block;
+    }
+
+    .main-benefits {
+        height: 120vw;
+    }
+
+    .main-benefits-flex {
+        flex-direction: column;
+    }
+
+    .main-benefits-flex-pad {
+        width: 50vw;
+        margin: 0 25vw;
+        transition: padding-left .5s;
+    }
+
+    .main-benefits-flex-pad h4 {
+        font-size: 3vw;
+    }
+
+    .main-benefits-flex-pad:hover {
+        padding-left: 2.8vw;
+        padding-top: 0;
+    }
+
+    .main-benefits-flex-pad p {
+        font-size: 2.2vw;
+        line-height: 4vw;
+    }
+
+    .main-clients {
+        height: 110vw;
+    }
+
+    .main-clients-flex {
+        flex-direction: column;
+    }
+
+    .main-clients-flex img {
+        width: 35vw;
+        margin: 2vw 35vw;
+    }
+
+    .main-benefits-flex-pad img {
+        margin: 0 20vw;
+    }
+}
+
+@media (max-width: 350px) {
+
+    .background-bottomShape {
+        top: 472vw;
+    }
+
+    .background-respShape5 {
+        display: block;
+    }
+
+    header {
+        margin-bottom: 30vw;
+    }
+
+    .header-left {
+        width: 90vw;
+        z-index: 10;
+    }
+
+    .header-left h1 {
+        font-size: 8vw;
+    }
+
+    .header-left p {
+        font-size: 3vw;
+        line-height: 5vw;
+    }
+
+    .header-left input[type="email"] {
+        width: 50vw;
+        height: 10vw;
+        font-size: 3vw;
+    }
+
+    .header-left input[type="submit"] {
+        width: 20vw;
+        height: 10vw;
+        font-size: 3vw;
+    }
+
+    .header-left .logos {
+        grid-template-columns: 20vw 20vw 20vw;
+        top: 9vw;
+    }
+
+    .logos .logo {
+        width: 20vw;
+    }
+
+    .main-benefits p {
+        font-size: 3vw;
+        line-height: 5vw;
+    }
+
+    .main-why {
+        margin-top: 10vw;
+    }
+
+    .main-why-right {
+        width: 80vw;
+        margin: 0 10vw;
+        position: relative;
+    }
+
+    .main-why-right h2 {
+        font-sizes: 
+    }
+
+    .main-why-right p {
+        font-size: 3vw;
+        line-height: 5vw;
+        margin-left: 10vw;
+        width: 60vw;
+        z-index: 10;
+        position: relative;
+        text-align: justify;
+    }
+
+    .main-why-right a {
+        font-size: 3vw;
+        margin-left: 10vw;
+    }
+
+    .main-why-right img {
+        height: 2vw;
+    }
+
+    .main-teamworkflow {
+        margin-top: 10vw;
+    }
+
+    .main-teamworkflow-left {
+        width: 90vw;
+        z-index: 10;
+        position: absolute;
+    }
+
+    .main-teamworkflow-left p {
+        font-size: 3vw;
+        line-height: 5vw;
+        margin-left: 20vw;
+        width: 60vw;
+        z-index: 10;
+        position: relative;
+        text-align: justify;
+    }
+
+    .main-teamworkflow-left a {
+        font-size: 3vw;
+        margin-left: 20vw;
+    }
+
+    .main-teamworkflow-left img {
+        height: 2vw;
+    }
+
+    .main-teamworkflow-right {
+        right: 0;
+    }
+
+    .main-clients {
+        margin-top: 10vw;
+        height: 125vw;
+    }
+    
+    .main-clients-flex img {
+        width: 40vw;
+        margin: 3vw;
+    }
+
+    footer {
+        height: 42vw;
+    }
+
+    footer p {
+        font-size: 3vw;
+        line-height: 5vw;
+        margin-left: 20vw;
+        width: 60vw;
+        text-align: center;
+    }
+
+    footer form {
+        width: 70vw;
+        margin: 5vw 15vw; 
+    }
+
+    footer input[type="email"] {
+        width: 40vw;
+        height: 10vw;
+        font-size: 3vw;
+    }
+
+    footer input[type="submit"] {
+        width: 20vw;
+        height: 10vw;
+        font-size: 3vw;
+    }
 }

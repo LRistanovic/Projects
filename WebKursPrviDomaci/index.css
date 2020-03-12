@@ -470,7 +470,7 @@ footer form {
 }
 
 @media (max-width: 820px) {
-    
+
     .background-middleShape {
         top: 170vw;
     }
@@ -481,6 +481,13 @@ footer form {
 
     .background-respShape1, .background-respShape2, .background-respShape3, .background-respShape4 {
         display: block;
+    }
+
+    .header-right-tryfree {
+        width: 15vw;
+        height: 4vw;
+        border-radius: 4vw;
+        font-size: 3vw;
     }
 
     .main-benefits {
@@ -529,10 +536,10 @@ footer form {
     }
 }
 
-@media (max-width: 350px) {
+@media (max-width: 400px) {
 
     .background-bottomShape {
-        top: 472vw;
+        top: 492vw;
     }
 
     .background-respShape5 {
@@ -571,11 +578,18 @@ footer form {
 
     .header-left .logos {
         grid-template-columns: 20vw 20vw 20vw;
-        top: 9vw;
+        top: 10vw;
     }
-
+    
     .logos .logo {
         width: 20vw;
+    }
+
+    .header-right-tryfree {
+        width: 15vw;
+        height: 4vw;
+        border-radius: 4vw;
+        font-size: 3vw;
     }
 
     .main-benefits p {
@@ -584,7 +598,7 @@ footer form {
     }
 
     .main-why {
-        margin-top: 10vw;
+        margin-top: 20vw;
     }
 
     .main-why-right {
@@ -650,7 +664,7 @@ footer form {
     }
 
     .main-clients {
-        margin-top: 10vw;
+        margin-top: 20vw;
         height: 125vw;
     }
     

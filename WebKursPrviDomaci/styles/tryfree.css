@@ -3,8 +3,9 @@ body {
 }
 
 main {
-	width: 60vw;
-	margin: 0 20vw;
+	width: 100vw;
+	padding: 0;
+	margin: 0;
 	position: relative;
 }
 
@@ -20,9 +21,9 @@ main h3 {
 
 main fieldset {
 	border-radius: 10px;
-	width: 100%;
+	width: 60vw;
 	background-color: rgba(255, 255, 255, 40%);
-	margin-bottom: 10vw;
+	margin: 0 auto 10vw;
 }
 
 main legend {
@@ -36,7 +37,7 @@ main form {
 
 
 input[type="text"], input[type="email"] {
-	width: 35vw;
+	width: 30vw;
 	height: 3vw;
 	margin: 1.5vw;
 	font-family: "Muli";
@@ -44,7 +45,7 @@ input[type="text"], input[type="email"] {
 }
 
 select {
-	width: 36.3vw;
+	width: 30vw;
 	height: 3.5vw;
 	margin: 1.5vw;
 	font-family: "Muli";
@@ -52,7 +53,7 @@ select {
 }
 
 textarea {
-	width: 34.2vw;
+	width: 30vw;
 	height: 8vw;
 	padding: 1vw;
 	resize: none;
@@ -126,4 +127,68 @@ input[type="submit"] {
 	position: absolute;
 	top: 10vw;
 	left: 15vw;
+}
+
+@media (max-width: 820px) {
+
+}
+
+@media (max-width: 400px) {
+	main form {
+		width: 80vw;
+		margin: 0;
+	}
+	
+	main h1 {
+		font-size: 5vw;
+	}
+
+	main h3 {
+		font-size: 3.5vw;
+	}
+
+	main legend {
+		font-size: 3vw;
+	}
+
+	input[type="text"], input[type="email"] {
+		width: 40vw;
+		font-size: 3vw;
+	}
+
+	select {
+		width: 67vw;
+		font-size: 3vw;
+		height: 5vw;
+	}
+
+	textarea {
+		width: 64.4vw;
+		height: 20vw;
+	}
+
+	label {
+		font-size: 3vw;
+	}
+
+	input[type="checkbox"] {
+		font-size: 1vw;
+	}
+
+	input[type="submit"] {
+		height: 6vw;
+	}
+
+	.background-shape1 {
+		top: 25vw;
+	}
+
+	.background-shape2 {
+		top: 80vw;
+		left: 25vw;
+	}
+
+	.background-shape3 {
+		top: 30vw;
+	}
 }

@@ -1,0 +1,72 @@
+body {
+    background: linear-gradient(30deg, #EE9999, #9999EE);
+    overflow: hidden;
+    font-family: 'Montserrat', sans-serif;
+}
+
+html {
+    height: 100vh;
+}
+
+.container {
+    background-color: white;
+    width: 50vw;
+    height: 90vh;
+    border-radius: 5vw;
+    position: absolute;
+    top: 5vh;
+    left: 25vw;
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    overflow: hidden;
+}
+
+.horizontal-line {
+    height: 2px;
+    width: 90%;
+    background-color: black;
+    position: absolute;
+    left: 5%;
+}
+
+.vertical-line {
+    height: 90%;
+    width: 2px;
+    background-color: black;
+    position: absolute;
+    top: 5%;
+}
+
+.line1 {
+    top: 33%;
+}
+
+.line2 {
+    top: 66%;
+}
+
+.line3 {
+    left: 33%;
+}
+
+.line4 {
+    left: 66%;
+}
+
+#turn {
+    float: left;
+    font-size: 2vw;
+    margin-top: 15vh;
+    margin-left: 2vw;
+}
+
+.field {
+    height: 30vh;
+}
+
+.field p {
+    margin: 0 20%;
+    font-size: 12vw;
+    font-family: 'Montserrat';
+    font-weight: 90;
+}

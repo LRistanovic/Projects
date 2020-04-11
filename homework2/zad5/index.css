@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2vw;
+    margin: 0;
+}
+
+#navbar {
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    height: 5vw;
+    background-color: rgb(71, 166, 206);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#navbar div {
+    width: 33.3vw;
+    height: 5vw;
+    line-height: 5vw;
+    text-align: center;
+    border: 1px solid rgb(56, 132, 163);
+}
+
+#navbar div:hover {
+    background-color: rgb(56, 132, 163);
+}
+
+.time {
+    position: absolute;
+    top: 7vw;
+    width: 100vw;
+    text-align: center;
+    font-size: 10vw;
+}
+
+#pomodoro, #short-break, #long-break {
+    display: none;
+}
+
+.buttons {
+    position: absolute;
+    top: 33vw;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    width: 15vw;
+    height: 5vw;
+    margin: 2vw;
+    border-radius: .5vw;
+    font-size: 2vw;
+}
+
+.button-start {
+    background-color: rgb(99, 164, 18);
+    border: 2px solid rgb(70, 107, 10);
+    color: white;
+}
+
+.button-stop {
+    background-color: rgb(190, 8, 7);
+    border: 2px solid rgb(117, 7, 4);
+    color: white;
+}
+
+.button-reset {
+    background-color: rgb(233, 233, 233);
+    border: 2px solid rgb(209, 209, 209);
+}
